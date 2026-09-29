@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Tech Bros to Cowboys: How Much Better Off Are Californians Who Move to Texas?"
+abstract: >-
+  Compares recent California-to-Texas movers against Californians who stayed,
+  using ACS microdata (2021-2023) and BEA regional price parities. Holding
+  demographics, education, and household composition fixed, movers have
+  income relative to a locally-priced poverty threshold 10.1% higher
+  (95% CI 3.7% to 16.9%). Against the unadjusted federal threshold there is
+  no detectable difference. Descriptive, not causal.
+authors:
+  - given-names: Ken
+    family-names: Xiong
+  - given-names: Artem
+    family-names: Senchev
+  - given-names: Sam
+    family-names: Der
+  - given-names: Pedro Jose
+    family-names: Palacios
+repository-code: "https://github.com/artemsenchev/ca-tx-mqol"
+license: MIT
+version: 1.0.0
+keywords:
+  - interstate migration
+  - cost of living
+  - regional price parities
+  - American Community Survey
+  - poverty measurement

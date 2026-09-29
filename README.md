@@ -96,8 +96,8 @@ All four authors have consented to this licensing — see `AUTHORS.md`.
 
 ## Citation
 
-If you use this work, please cite the paper (see `CITATION.cff` once a DOI is
-minted) and, separately, the underlying data sources:
+If you use this work, please cite the paper (see `CITATION.cff`, or GitHub's
+"Cite this repository" button) and, separately, the underlying data sources:
 
 - Ruggles, S., et al. (2025). *IPUMS USA: Version 16.0* \[dataset\].
   Minneapolis, MN: IPUMS. https://doi.org/10.18128/D010.V16.0

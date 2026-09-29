@@ -46,8 +46,8 @@ straight to Phase 3.
   the instructional team's.
 - ☑ **Fill in `[repository URL]`** in `reports/paper.md` §8, then rebuild
   (`python reports/build_paper.py`).
-- ☐ **Add `CITATION.cff`** — `README.md` already points at it. Needs the DOI
-  from Phase 4, so this lands after the Zenodo deposit.
+- ☑ **Add `CITATION.cff`** (and `.zenodo.json`, which Zenodo reads in
+  preference to it). The DOI is added after the Phase 4 deposit.
 - ☑ Move off system Python: create a venv and `pip install -e ".[dev,paper]"`.
   The clean install pulled statsmodels 0.15 (formulaic replaces patsy), which
   broke `predict_with_ci`; it now uses the public `get_prediction` API and

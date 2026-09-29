@@ -1,0 +1,24 @@
+{
+  "title": "Tech Bros to Cowboys: How Much Better Off Are Californians Who Move to Texas?",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "<p>Compares recent California-to-Texas movers against Californians who stayed, using American Community Survey microdata (2021&ndash;2023, n = 981,006) and BEA regional price parities. Holding demographics, education, and household composition fixed, movers have income relative to a locally-priced poverty threshold <strong>10.1% higher</strong> (95% CI 3.7% to 16.9%, p = 0.002). Against the unadjusted federal threshold the same comparison shows no detectable difference (&minus;3.9%, p = 0.19): the gain consists entirely of purchasing power, which the official measure is designed not to see. These are descriptive comparisons, not causal effects.</p><p>This deposit contains the paper (<code>reports/paper.pdf</code>) and the full Python pipeline. Paper text and figures are CC BY 4.0; source code is MIT (see <code>LICENSE</code>). IPUMS microdata is not redistributed.</p>",
+  "creators": [
+    {"name": "Xiong, Ken"},
+    {"name": "Senchev, Artem"},
+    {"name": "Der, Sam"},
+    {"name": "Palacios, Pedro Jose"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "interstate migration",
+    "cost of living",
+    "regional price parities",
+    "American Community Survey",
+    "poverty measurement"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/artemsenchev/ca-tx-mqol", "relation": "isSupplementedBy", "scheme": "url"},
+    {"identifier": "10.18128/D010.V16.0", "relation": "references", "scheme": "doi"}
+  ]
+}
