@@ -1,0 +1,306 @@
+{
+  "generated_by": "tests/export_reference.R",
+  "r_version": "4.4.3",
+  "n": 981006,
+  "n_households": 547600,
+  "attrition_rows": [2657979, 1984999, 1023275, 981006, 981006, 981006, 981006, 981006, 981006],
+  "group_counts": {
+    "CA_stay": 524268,
+    "CA_to_CA": 50763,
+    "CA_to_TX": 1482,
+    "TX_stay": 364801,
+    "TX_to_TX": 39101,
+    "TX_to_CA": 591
+  },
+  "models": {
+    "base": {
+      "coefficients": {
+        "Intercept": 0.9671525107951482,
+        "grp[T.CA_to_CA]": 0.02226546466393664,
+        "grp[T.CA_to_TX]": 0.1666065001458733,
+        "grp[T.TX_stay]": 0.07973712556011933,
+        "grp[T.TX_to_TX]": -0.0008493404366786624,
+        "grp[T.TX_to_CA]": 0.06848534313719121
+      },
+      "std_errors": {
+        "Intercept": 0.001811900878666521,
+        "grp[T.CA_to_CA]": 0.005658579361699066,
+        "grp[T.CA_to_TX]": 0.03173485783039905,
+        "grp[T.TX_stay]": 0.002925137820370244,
+        "grp[T.TX_to_TX]": 0.007520144758805194,
+        "grp[T.TX_to_CA]": 0.05028082209086693
+      },
+      "r_squared": 0.002352180762732995,
+      "nobs": 981006
+    },
+    "demo": {
+      "coefficients": {
+        "Intercept": 1.125812276761616,
+        "grp[T.CA_to_CA]": 0.01127084143360662,
+        "grp[T.CA_to_TX]": 0.1592555690471025,
+        "grp[T.TX_stay]": 0.09110028471043659,
+        "grp[T.TX_to_TX]": 0.01715892288841557,
+        "grp[T.TX_to_CA]": 0.0541534469707421,
+        "female": -0.07617480423789477,
+        "age": 0.001073723349549774,
+        "raceth[T.Hispanic]": -0.2555163045345888,
+        "raceth[T.NH Black]": -0.3090352230828917,
+        "raceth[T.NH Asian/PI]": 0.06374510175372256,
+        "raceth[T.NH Other/Multi]": -0.1083771729511084,
+        "nativity[T.Naturalized]": -0.03396510461977467,
+        "nativity[T.Non-citizen]": -0.2809252476554889
+      },
+      "std_errors": {
+        "Intercept": 0.005359002598344092,
+        "grp[T.CA_to_CA]": 0.005609626614692513,
+        "grp[T.CA_to_TX]": 0.03145052556955907,
+        "grp[T.TX_stay]": 0.002888270302843179,
+        "grp[T.TX_to_TX]": 0.007279984103660491,
+        "grp[T.TX_to_CA]": 0.05405397653154283,
+        "female": 0.001677591536467715,
+        "age": 0.0001050467787932026,
+        "raceth[T.Hispanic]": 0.003078214038917045,
+        "raceth[T.NH Black]": 0.006047526042705867,
+        "raceth[T.NH Asian/PI]": 0.004475921286669467,
+        "raceth[T.NH Other/Multi]": 0.006130994077732987,
+        "nativity[T.Naturalized]": 0.003681513137049197,
+        "nativity[T.Non-citizen]": 0.003999647601343883
+      },
+      "r_squared": 0.05939463656496108,
+      "nobs": 981006
+    },
+    "edu": {
+      "coefficients": {
+        "Intercept": 0.547413687707649,
+        "grp[T.CA_to_CA]": -0.02065194599038197,
+        "grp[T.CA_to_TX]": 0.1135160928533908,
+        "grp[T.TX_stay]": 0.09583346239648941,
+        "grp[T.TX_to_TX]": 0.01822748352251173,
+        "grp[T.TX_to_CA]": -0.02059610048056771,
+        "female": -0.09725839641286838,
+        "age": 0.003342644757071273,
+        "raceth[T.Hispanic]": -0.09912385492272321,
+        "raceth[T.NH Black]": -0.2417338794979834,
+        "raceth[T.NH Asian/PI]": -0.005927226277814666,
+        "raceth[T.NH Other/Multi]": -0.08710420850802479,
+        "nativity[T.Naturalized]": -0.007006371239763398,
+        "nativity[T.Non-citizen]": -0.1604440768990056,
+        "educ4[T.HS grad]": 0.2369478795484361,
+        "educ4[T.Some college]": 0.4117977598369689,
+        "educ4[T.BA or more]": 0.6725614187694015
+      },
+      "std_errors": {
+        "Intercept": 0.007539509822399341,
+        "grp[T.CA_to_CA]": 0.005335433482981755,
+        "grp[T.CA_to_TX]": 0.03084655269595964,
+        "grp[T.TX_stay]": 0.002765356595293858,
+        "grp[T.TX_to_TX]": 0.006984701863546715,
+        "grp[T.TX_to_CA]": 0.04870821252314107,
+        "female": 0.001650579392247782,
+        "age": 0.000102569056103849,
+        "raceth[T.Hispanic]": 0.003081717381494612,
+        "raceth[T.NH Black]": 0.005723512141467732,
+        "raceth[T.NH Asian/PI]": 0.004283608709906662,
+        "raceth[T.NH Other/Multi]": 0.005915051820873827,
+        "nativity[T.Naturalized]": 0.0035636978480705,
+        "nativity[T.Non-citizen]": 0.004124406158838211,
+        "educ4[T.HS grad]": 0.00480292861608878,
+        "educ4[T.Some college]": 0.00510576478964492,
+        "educ4[T.BA or more]": 0.005015646060279481
+      },
+      "r_squared": 0.1269676650923671,
+      "nobs": 981006
+    },
+    "hh": {
+      "coefficients": {
+        "Intercept": 0.4676786914603341,
+        "grp[T.CA_to_CA]": 0.0004587528647989781,
+        "grp[T.CA_to_TX]": 0.09618656607274167,
+        "grp[T.TX_stay]": 0.07904702094417894,
+        "grp[T.TX_to_TX]": 0.02964353472979317,
+        "grp[T.TX_to_CA]": -0.02587252441899372,
+        "female": -0.08313290988018461,
+        "age": 0.001617311335833619,
+        "raceth[T.Hispanic]": -0.0856385669002447,
+        "raceth[T.NH Black]": -0.1846784169297626,
+        "raceth[T.NH Asian/PI]": -0.008087281666395071,
+        "raceth[T.NH Other/Multi]": -0.06885295694625065,
+        "nativity[T.Naturalized]": -0.03737839873164705,
+        "nativity[T.Non-citizen]": -0.1911949270551033,
+        "educ4[T.HS grad]": 0.2299923052985426,
+        "educ4[T.Some college]": 0.4019312578845597,
+        "educ4[T.BA or more]": 0.6446078391986636,
+        "married": 0.2831507038734214,
+        "kids": -0.1443824433635641,
+        "famsize": 0.02410842444664897
+      },
+      "std_errors": {
+        "Intercept": 0.00843785667751747,
+        "grp[T.CA_to_CA]": 0.005291803271012439,
+        "grp[T.CA_to_TX]": 0.03041474507642243,
+        "grp[T.TX_stay]": 0.002741731312108198,
+        "grp[T.TX_to_TX]": 0.006926936548751601,
+        "grp[T.TX_to_CA]": 0.04898391660167385,
+        "female": 0.001608510829351498,
+        "age": 0.0001077361528498283,
+        "raceth[T.Hispanic]": 0.003074436907436057,
+        "raceth[T.NH Black]": 0.005644818131080048,
+        "raceth[T.NH Asian/PI]": 0.004261490571047714,
+        "raceth[T.NH Other/Multi]": 0.005839040436653566,
+        "nativity[T.Naturalized]": 0.003536683438550984,
+        "nativity[T.Non-citizen]": 0.004098537119926524,
+        "educ4[T.HS grad]": 0.00476133375907053,
+        "educ4[T.Some college]": 0.00505700513350751,
+        "educ4[T.BA or more]": 0.004996976930913011,
+        "married": 0.002703071153168025,
+        "kids": 0.002784025978197205,
+        "famsize": 0.001039327348766688
+      },
+      "r_squared": 0.154809060610805,
+      "nobs": 981006
+    },
+    "hh_official": {
+      "coefficients": {
+        "Intercept": 0.5776591748072817,
+        "grp[T.CA_to_CA]": 0.0002275333892908127,
+        "grp[T.CA_to_TX]": -0.03988145148442378,
+        "grp[T.TX_stay]": -0.05755787866060985,
+        "grp[T.TX_to_TX]": -0.1064174639843568,
+        "grp[T.TX_to_CA]": -0.02612172468189883,
+        "female": -0.08339907721785149,
+        "age": 0.001619515285813505,
+        "raceth[T.Hispanic]": -0.08540844777197906,
+        "raceth[T.NH Black]": -0.184797361276883,
+        "raceth[T.NH Asian/PI]": -0.008308385871899486,
+        "raceth[T.NH Other/Multi]": -0.06913258318134739,
+        "nativity[T.Naturalized]": -0.03734296959990922,
+        "nativity[T.Non-citizen]": -0.1916300993740773,
+        "educ4[T.HS grad]": 0.2305282334605185,
+        "educ4[T.Some college]": 0.4029591655483407,
+        "educ4[T.BA or more]": 0.6461700254311181,
+        "married": 0.2839799690750677,
+        "kids": -0.14467922016487,
+        "famsize": 0.02471490849642421
+      },
+      "std_errors": {
+        "Intercept": 0.008506823845825894,
+        "grp[T.CA_to_CA]": 0.005363572364909471,
+        "grp[T.CA_to_TX]": 0.03032827482294201,
+        "grp[T.TX_stay]": 0.002751305932580357,
+        "grp[T.TX_to_TX]": 0.006915020702416625,
+        "grp[T.TX_to_CA]": 0.04950094675781457,
+        "female": 0.001621185635188749,
+        "age": 0.0001084349509414141,
+        "raceth[T.Hispanic]": 0.00309133890546435,
+        "raceth[T.NH Black]": 0.005662654321499015,
+        "raceth[T.NH Asian/PI]": 0.004294634660979527,
+        "raceth[T.NH Other/Multi]": 0.005885527707651511,
+        "nativity[T.Naturalized]": 0.003556408372098476,
+        "nativity[T.Non-citizen]": 0.004123578132573653,
+        "educ4[T.HS grad]": 0.00479073915287777,
+        "educ4[T.Some college]": 0.005088789647015042,
+        "educ4[T.BA or more]": 0.00502783930040575,
+        "married": 0.002716532760033002,
+        "kids": 0.002795003265216647,
+        "famsize": 0.001043662650937988
+      },
+      "r_squared": 0.1535437433243795,
+      "nobs": 981006
+    }
+  },
+  "report_stats": {
+    "topcode_share_ca": 0.4449447727849179,
+    "topcode_share_tx": 0.3734853866950842,
+    "rpp_ca_2023": 112.19499999999999,
+    "rpp_tx_2023": 97.140000000000001,
+    "share_joined": 0.1673414304993252,
+    "gap_all_pct": 10.096444744777955,
+    "gap_no_joined_pct": 8.064791516898872
+  },
+  "figure_predictions": [
+    {
+      "grp": "CA_stay",
+      "threshold": "repriced",
+      "ratio": 4.313278610500412,
+      "lo": 4.287896619434409,
+      "hi": 4.338810849001847
+    },
+    {
+      "grp": "CA_to_CA",
+      "threshold": "repriced",
+      "ratio": 4.315257793362848,
+      "lo": 4.26778964989497,
+      "hi": 4.363253897397936
+    },
+    {
+      "grp": "CA_to_TX",
+      "threshold": "repriced",
+      "ratio": 4.748766402097912,
+      "lo": 4.473334124440883,
+      "hi": 5.041157605125806
+    },
+    {
+      "grp": "TX_stay",
+      "threshold": "repriced",
+      "ratio": 4.668068246393028,
+      "lo": 4.639744284465605,
+      "hi": 4.696565115870969
+    },
+    {
+      "grp": "TX_to_TX",
+      "threshold": "repriced",
+      "ratio": 4.443053423838237,
+      "lo": 4.381764974497139,
+      "hi": 4.505199124548248
+    },
+    {
+      "grp": "TX_to_CA",
+      "threshold": "repriced",
+      "ratio": 4.203114461778568,
+      "lo": 3.81811870278462,
+      "hi": 4.626930840554511
+    },
+    {
+      "grp": "CA_stay",
+      "threshold": "official",
+      "ratio": 4.834801136386707,
+      "lo": 4.8061746362109,
+      "hi": 4.863598141501336
+    },
+    {
+      "grp": "CA_to_CA",
+      "threshold": "official",
+      "ratio": 4.835901340237626,
+      "lo": 4.782097006207843,
+      "hi": 4.890311037637627
+    },
+    {
+      "grp": "CA_to_TX",
+      "threshold": "official",
+      "ratio": 4.645776589516383,
+      "lo": 4.37705984160747,
+      "hi": 4.930990413823554
+    },
+    {
+      "grp": "TX_stay",
+      "threshold": "official",
+      "ratio": 4.564377400832021,
+      "lo": 4.536568859330314,
+      "hi": 4.592356404858256
+    },
+    {
+      "grp": "TX_to_TX",
+      "threshold": "official",
+      "ratio": 4.346724330935634,
+      "lo": 4.286847605099748,
+      "hi": 4.407437387480493
+    },
+    {
+      "grp": "TX_to_CA",
+      "threshold": "official",
+      "ratio": 4.710143022904394,
+      "lo": 4.274374344687787,
+      "hi": 5.190337931862969
+    }
+  ]
+}

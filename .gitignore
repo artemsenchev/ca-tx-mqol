@@ -1,0 +1,34 @@
+# IPUMS microdata — not redistributable, see data/README.md
+data/raw/*
+!data/raw/.gitkeep
+
+# Derived data
+data/processed/*
+!data/processed/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Generated outputs in reports/figures/ and reports/tables/ ARE committed:
+# they are aggregate estimates, not microdata, and regenerating them needs an
+# IPUMS account -- without them a clone could not rebuild the paper.
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Notebooks ARE committed with their outputs, deliberately -- the microdata
+# needs an IPUMS account, so the executed outputs are the only way most
+# readers will ever see the results. Do not add nbstripout here.
+# See src/README.md for what that obliges: re-execute top-to-bottom before
+# committing, never save a partially-run notebook.
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

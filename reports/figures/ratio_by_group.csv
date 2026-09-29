@@ -1,0 +1,13 @@
+grp,threshold,ratio,lo,hi
+CA_stay,Income ÷ national poverty line (same in every state),4.834801136387638,4.806174636211827,4.863598141502271
+CA_to_CA,Income ÷ national poverty line (same in every state),4.835901340238477,4.782097006208697,4.890311037638476
+CA_to_TX,Income ÷ national poverty line (same in every state),4.645776589517196,4.377059841608274,4.930990413824373
+TX_stay,Income ÷ national poverty line (same in every state),4.564377400832808,4.536568859331093,4.59235640485905
+TX_to_TX,Income ÷ national poverty line (same in every state),4.346724330936876,4.286847605101029,4.407437387481694
+TX_to_CA,Income ÷ national poverty line (same in every state),4.710143022905446,4.27437434468857,5.190337931864337
+CA_stay,Income ÷ state-priced poverty line,4.313278610502249,4.2878966194362365,4.338810849003696
+CA_to_CA,Income ÷ state-priced poverty line,4.315257793364716,4.267789649896826,4.363253897399815
+CA_to_TX,Income ÷ state-priced poverty line,4.748766402099814,4.4733341244427125,5.0411576051277835
+TX_stay,Income ÷ state-priced poverty line,4.668068246394778,4.639744284467341,4.696565115872735
+TX_to_TX,Income ÷ state-priced poverty line,4.44305342383996,4.3817649744988945,4.505199124549936
+TX_to_CA,Income ÷ state-priced poverty line,4.203114461780521,3.8181187027862413,4.626930840556846
